@@ -37,9 +37,11 @@ This script will function properly in either case, as it gathers the *last strin
 ## Running the script  
 
 In order to run this script, the two text files that are to be compared must be placed in the same directory the file_ingest_verify.py script is located.  
+
 ![Directory](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_5.png)  
 
 Below you can see the contents of each text file. Notice that there are five matching filenames.  
+
 ![File 1](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_6.png)  
 ![File 2](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_7.png)  
 
@@ -50,7 +52,9 @@ To run the script in Linux with Python 3+ installed, enter the following:
 Enter the name you would like your output file to be called, in addition to each file to be compared.  
 >**NOTE**: if you enter a name for the output file that already exists within the directory, that file's contents will be overwritten.  
 
+
 This program will continue to run until the user exits by typing "2" when prompted. A full run of the program can be seen below:  
+
 ![Run](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_8.png)  
 
 You may print the contents of the output file using the "cat" command, or you may go into edit mode using "nano".  
