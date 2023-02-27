@@ -1,6 +1,8 @@
 # File Ingest Verify
 
-This script compares all file names of two folders/directories against one another and returns the intersection of the two directories. The intended use case for this script it to compare **FC**, **NX**, and **Ground** directories in order to save storage space onboard the spacecraft.
+This script compares all file names of two folders/directories against one another and returns the intersection of the two directories. The intended use case for this script it to compare **FC**, **NX**, and **Ground** directories in order to save storage space onboard the spacecraft.  
+> Input: the names of two txt files  
+> Output: txt file containing the intersection of the txt files  
 
 ## Requirements
 ### Python
