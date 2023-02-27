@@ -55,6 +55,12 @@ This program will continue to run until the user exits by typing "2" when prompt
 
 You may print the contents of the output file using the "cat" command, or you may go into edit mode using "nano".  
 
+**Cat**:  
+![Cat](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_9.png)  
+
+**Nano**:  
+![Nano](https://github.com/alan-moss/Spaceflight/blob/main/MD_Images/file_ingest_verify_10.png)  
+
 ### Windows
 To run this script on Windows with Python 3+ installed (and Python 3+ as first python environment in PATH), enter the following:  
 >**python file_ingest_verify.py**  
