@@ -8,7 +8,7 @@ This script compares all file names of two folders/directories against one anoth
 ### Python
 - This script is written in python and was tested using Python 3.10
 ### Text files
-This script requires two txt files to compare against one another. In order to create a text file containing a list of all filenames within a directory, open a terminal or powershell, cd into the chosen directory, and enter the following command:
+This script requires two txt files to compare against one another. In order to create a text file containing a list of all filenames within a directory, open a terminal or powershell window, cd into the chosen directory, and enter the following command:
 > **`ls > filename.txt`**
 
  Where *'filename.txt'* is the desired name of the output file.
