@@ -19,14 +19,18 @@ This will produce a text file containing every file name within the current dire
 **`20220718_adcs_high200001.mtc`**  
 **`20220718_adcs_high200002.mtc`**  
 
-If receiving a list of file names from another source, there may be file paths or file permissions attached to the file names as a prefix (see below):
+If you prefer to include file permissions or file paths in your text file, you can do in Linux using the following commands:  
 
 *With file permissions:*  
+>**`ll > filename.txt`**  
+
 **`-rw-rw-r-- 1 astroops5 astroops5  501 May 26  2022 20220526_df.txt`**  
 **`-rw-rw-r-- 1 astroops5 astroops5  979 May 26  2022 20220526_ps.txt`**  
 **`-rw-rw-r-- 1 astroops5 astroops5 1.6K May 26  2022 20220526_top.txt`**  
 
 *With file path:*  
+>**`ls -d "$PWD"/* > filename.txt`**  
+
 **`/mnt/shared/tlm_store/backorbit/20220527_power00000.mtc`**  
 **`/mnt/shared/tlm_store/backorbit/20220527_power00001.mtc`**  
 **`/mnt/shared/tlm_store/backorbit/20220527_power00002.mtc`**  
